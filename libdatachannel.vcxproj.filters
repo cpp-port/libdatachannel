@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\candidate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\channel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\configuration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\datachannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\dependencydescriptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\description.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\iceudpmuxlistener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\mediahandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\peerconnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rtcpreceivingsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\track.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\websocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\websocketserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rtppacketizationconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\video_layers_allocation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rtcpsrreporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rtppacketizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rtpdepacketizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\h264rtppacketizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\h264rtpdepacketizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\nalunit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\h265rtppacketizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\h265rtpdepacketizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\h265nalunit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\av1rtppacketizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\vp8rtppacketizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\vp8rtpdepacketizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rtcpnackresponder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rtp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\capi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\plihandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\pacinghandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rembhandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\certificate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\channel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\datachannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\dtlssrtptransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\dtlstransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\icetransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\iceudpmuxlistener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\peerconnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\logcounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\sctptransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\threadpool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\track.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\processor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\sha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\pollinterrupter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\pollservice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\http.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\httpproxytransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tcpserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tcptransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tlstransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\transport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\verifiedtlstransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\websocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\websocketserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\wstransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\wshandshake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\candidate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\channel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\configuration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\datachannel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\dependencydescriptor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\description.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\iceudpmuxlistener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\mediahandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtcpreceivingsession.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\global.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\message.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\frameinfo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\peerconnection.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\reliability.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtc.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\track.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\websocket.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\websocketserver.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtppacketizationconfig.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\video_layers_allocation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtcpsrreporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtppacketizer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtpdepacketizer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\h264rtppacketizer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\h264rtpdepacketizer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\nalunit.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\h265rtppacketizer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\h265rtpdepacketizer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\h265nalunit.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\av1rtppacketizer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\vp8rtppacketizer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\vp8rtpdepacketizer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtcpnackresponder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\plihandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\pacinghandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rembhandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\certificate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\channel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\datachannel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\dtlssrtptransport.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\dtlstransport.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\icetransport.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\iceudpmuxlistener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\init.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\internals.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\peerconnection.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\queue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\logcounter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\sctptransport.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\threadpool.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tls.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\track.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\processor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\sha.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\pollinterrupter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\pollservice.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\http.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\httpproxytransport.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tcpserver.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tcptransport.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tlstransport.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\transport.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\verifiedtlstransport.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\websocket.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\websocketserver.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\wstransport.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\wshandshake.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D70C3C70-D12E-3DC2-B269-D2A90754B8A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CC244DE8-4D42-3F7B-86C9-67D37FA84A27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

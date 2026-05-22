@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{27FE708B-04EA-3AA9-A1D0-2C95FD7A00AD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libdatachannel</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="..\..\..\operating_system\operating_system-windows\port_debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="..\..\..\operating_system\operating_system-windows\port_release.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\camilo\remoting\main\port\networking\libdatachannel\build3\libdatachannel\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">datachannel.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">datachannel</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\camilo\remoting\main\port\networking\libdatachannel\build3\libdatachannel\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">datachannel.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">datachannel</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\camilo\remoting\main\port\networking\libdatachannel\build3\libdatachannel\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">datachannel.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">datachannel</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\usrsctp\usrsctplib;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\plog\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\crypto\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libjuice\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/camilo/remoting/main/operating_system/operating_system-windows/include/openssl"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;RTC_EXPORTS;RTC_ENABLE_WEBSOCKET=1;RTC_ENABLE_MEDIA=1;RTC_SYSTEM_SRTP=0;USE_GNUTLS=0;USE_NICE=0;RTC_SYSTEM_JUICE=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;JUICE_STATIC;CMAKE_INTDIR="Debug";datachannel_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;RTC_EXPORTS;RTC_ENABLE_WEBSOCKET=1;RTC_ENABLE_MEDIA=1;RTC_SYSTEM_SRTP=0;USE_GNUTLS=0;USE_NICE=0;RTC_SYSTEM_JUICE=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;JUICE_STATIC;CMAKE_INTDIR=\"Debug\";datachannel_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\usrsctp\usrsctplib;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\plog\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\crypto\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libjuice\include;C:\Users\camilo\remoting\main\operating_system\operating_system-windows\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\usrsctp\usrsctplib;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\plog\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\crypto\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libjuice\include;C:\Users\camilo\remoting\main\operating_system\operating_system-windows\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>deps\usrsctp\usrsctplib\Debug\usrsctp.lib;ws2_32.lib;deps\libsrtp\Debug\srtp2.lib;C:\cmake\lib\libssl.lib;deps\libjuice\Debug\juice.lib;iphlpapi.lib;C:\cmake\lib\libcrypto.lib;C:\cmake\lib\libcrypto.lib;ws2_32.lib;bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/camilo/remoting/main/port/networking/libdatachannel/build3/libdatachannel/Debug/datachannel.lib</ImportLibrary>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/camilo/remoting/main/port/networking/libdatachannel/build3/libdatachannel/Debug/datachannel.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <Version>0.24</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\usrsctp\usrsctplib;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\plog\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\crypto\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libjuice\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/camilo/remoting/main/operating_system/operating_system-windows/include/openssl"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RTC_EXPORTS;RTC_ENABLE_WEBSOCKET=1;RTC_ENABLE_MEDIA=1;RTC_SYSTEM_SRTP=0;USE_GNUTLS=0;USE_NICE=0;RTC_SYSTEM_JUICE=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;JUICE_STATIC;CMAKE_INTDIR="Release";datachannel_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RTC_EXPORTS;RTC_ENABLE_WEBSOCKET=1;RTC_ENABLE_MEDIA=1;RTC_SYSTEM_SRTP=0;USE_GNUTLS=0;USE_NICE=0;RTC_SYSTEM_JUICE=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;JUICE_STATIC;CMAKE_INTDIR=\"Release\";datachannel_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\usrsctp\usrsctplib;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\plog\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\crypto\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libjuice\include;C:\Users\camilo\remoting\main\operating_system\operating_system-windows\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\usrsctp\usrsctplib;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\plog\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\crypto\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libjuice\include;C:\Users\camilo\remoting\main\operating_system\operating_system-windows\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>deps\usrsctp\usrsctplib\Release\usrsctp.lib;ws2_32.lib;deps\libsrtp\Release\srtp2.lib;C:\cmake\lib\libssl.lib;deps\libjuice\Release\juice.lib;iphlpapi.lib;C:\cmake\lib\libcrypto.lib;C:\cmake\lib\libcrypto.lib;ws2_32.lib;bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/camilo/remoting/main/port/networking/libdatachannel/build3/libdatachannel/Release/datachannel.lib</ImportLibrary>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/camilo/remoting/main/port/networking/libdatachannel/build3/libdatachannel/Release/datachannel.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <Version>0.24</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\usrsctp\usrsctplib;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\plog\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\crypto\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libjuice\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/camilo/remoting/main/operating_system/operating_system-windows/include/openssl"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RTC_EXPORTS;RTC_ENABLE_WEBSOCKET=1;RTC_ENABLE_MEDIA=1;RTC_SYSTEM_SRTP=0;USE_GNUTLS=0;USE_NICE=0;RTC_SYSTEM_JUICE=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;JUICE_STATIC;CMAKE_INTDIR="MinSizeRel";datachannel_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RTC_EXPORTS;RTC_ENABLE_WEBSOCKET=1;RTC_ENABLE_MEDIA=1;RTC_SYSTEM_SRTP=0;USE_GNUTLS=0;USE_NICE=0;RTC_SYSTEM_JUICE=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;JUICE_STATIC;CMAKE_INTDIR=\"MinSizeRel\";datachannel_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\usrsctp\usrsctplib;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\plog\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\crypto\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libjuice\include;C:\Users\camilo\remoting\main\operating_system\operating_system-windows\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\usrsctp\usrsctplib;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\plog\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\crypto\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libjuice\include;C:\Users\camilo\remoting\main\operating_system\operating_system-windows\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>deps\usrsctp\usrsctplib\MinSizeRel\usrsctp.lib;ws2_32.lib;deps\libsrtp\MinSizeRel\srtp2.lib;C:\cmake\lib\libssl.lib;deps\libjuice\MinSizeRel\juice.lib;iphlpapi.lib;C:\cmake\lib\libcrypto.lib;C:\cmake\lib\libcrypto.lib;ws2_32.lib;bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/camilo/remoting/main/port/networking/libdatachannel/build3/libdatachannel/MinSizeRel/datachannel.lib</ImportLibrary>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/camilo/remoting/main/port/networking/libdatachannel/build3/libdatachannel/MinSizeRel/datachannel.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <Version>0.24</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\usrsctp\usrsctplib;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\plog\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\crypto\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libjuice\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/camilo/remoting/main/operating_system/operating_system-windows/include/openssl"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RTC_EXPORTS;RTC_ENABLE_WEBSOCKET=1;RTC_ENABLE_MEDIA=1;RTC_SYSTEM_SRTP=0;USE_GNUTLS=0;USE_NICE=0;RTC_SYSTEM_JUICE=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;JUICE_STATIC;CMAKE_INTDIR="RelWithDebInfo";datachannel_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RTC_EXPORTS;RTC_ENABLE_WEBSOCKET=1;RTC_ENABLE_MEDIA=1;RTC_SYSTEM_SRTP=0;USE_GNUTLS=0;USE_NICE=0;RTC_SYSTEM_JUICE=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;JUICE_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";datachannel_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\usrsctp\usrsctplib;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\plog\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\crypto\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libjuice\include;C:\Users\camilo\remoting\main\operating_system\operating_system-windows\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\usrsctp\usrsctplib;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\plog\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\crypto\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libsrtp\include;C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\deps\libjuice\include;C:\Users\camilo\remoting\main\operating_system\operating_system-windows\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>deps\usrsctp\usrsctplib\RelWithDebInfo\usrsctp.lib;ws2_32.lib;deps\libsrtp\RelWithDebInfo\srtp2.lib;C:\cmake\lib\libssl.lib;deps\libjuice\RelWithDebInfo\juice.lib;iphlpapi.lib;C:\cmake\lib\libcrypto.lib;C:\cmake\lib\libcrypto.lib;ws2_32.lib;bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/camilo/remoting/main/port/networking/libdatachannel/build3/libdatachannel/RelWithDebInfo/datachannel.lib</ImportLibrary>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/camilo/remoting/main/port/networking/libdatachannel/build3/libdatachannel/RelWithDebInfo/datachannel.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <Version>0.24</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\candidate.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\channel.cpp">
+      <ObjectFileName>$(IntDir)src/channel.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\configuration.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\datachannel.cpp">
+      <ObjectFileName>$(IntDir)src/datachannel.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\dependencydescriptor.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\description.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\iceudpmuxlistener.cpp">
+      <ObjectFileName>$(IntDir)src/iceudpmuxlistener.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\mediahandler.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\global.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\message.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\peerconnection.cpp">
+      <ObjectFileName>$(IntDir)src/peerconnection.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rtcpreceivingsession.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\track.cpp">
+      <ObjectFileName>$(IntDir)src/track.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\websocket.cpp">
+      <ObjectFileName>$(IntDir)src/websocket.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\websocketserver.cpp">
+      <ObjectFileName>$(IntDir)src/websocketserver.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rtppacketizationconfig.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\video_layers_allocation.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rtcpsrreporter.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rtppacketizer.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rtpdepacketizer.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\h264rtppacketizer.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\h264rtpdepacketizer.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\nalunit.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\h265rtppacketizer.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\h265rtpdepacketizer.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\h265nalunit.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\av1rtppacketizer.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\vp8rtppacketizer.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\vp8rtpdepacketizer.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rtcpnackresponder.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rtp.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\capi.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\plihandler.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\pacinghandler.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\rembhandler.cpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\candidate.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\channel.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\configuration.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\datachannel.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\dependencydescriptor.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\description.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\iceudpmuxlistener.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\mediahandler.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtcpreceivingsession.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\common.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\global.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\message.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\frameinfo.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\peerconnection.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\reliability.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtc.h" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtc.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtp.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\track.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\websocket.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\websocketserver.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtppacketizationconfig.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\video_layers_allocation.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtcpsrreporter.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtppacketizer.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtpdepacketizer.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\h264rtppacketizer.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\h264rtpdepacketizer.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\nalunit.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\h265rtppacketizer.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\h265rtpdepacketizer.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\h265nalunit.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\av1rtppacketizer.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\vp8rtppacketizer.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\vp8rtpdepacketizer.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rtcpnackresponder.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\utils.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\plihandler.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\pacinghandler.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\rembhandler.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\include\rtc\version.h" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\certificate.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\channel.cpp">
+      <ObjectFileName>$(IntDir)src/impl/channel.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\datachannel.cpp">
+      <ObjectFileName>$(IntDir)src/impl/datachannel.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\dtlssrtptransport.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\dtlstransport.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\icetransport.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\iceudpmuxlistener.cpp">
+      <ObjectFileName>$(IntDir)src/impl/iceudpmuxlistener.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\init.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\peerconnection.cpp">
+      <ObjectFileName>$(IntDir)src/impl/peerconnection.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\logcounter.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\sctptransport.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\threadpool.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tls.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\track.cpp">
+      <ObjectFileName>$(IntDir)src/impl/track.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\utils.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\processor.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\sha.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\pollinterrupter.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\pollservice.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\http.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\httpproxytransport.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tcpserver.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tcptransport.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tlstransport.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\transport.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\verifiedtlstransport.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\websocket.cpp">
+      <ObjectFileName>$(IntDir)src/impl/websocket.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\websocketserver.cpp">
+      <ObjectFileName>$(IntDir)src/impl/websocketserver.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\wstransport.cpp" />
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\wshandshake.cpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\certificate.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\channel.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\datachannel.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\dtlssrtptransport.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\dtlstransport.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\icetransport.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\iceudpmuxlistener.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\init.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\internals.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\peerconnection.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\queue.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\logcounter.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\sctptransport.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\threadpool.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tls.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\track.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\utils.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\processor.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\sha.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\pollinterrupter.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\pollservice.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\http.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\httpproxytransport.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tcpserver.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tcptransport.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\tlstransport.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\transport.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\verifiedtlstransport.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\websocket.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\websocketserver.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\wstransport.hpp" />
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\src\impl\wshandshake.hpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\build3\ZERO_CHECK.vcxproj">
+      <Project>{EAA97728-CEA4-32B6-9CE6-A96A4D856F3C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\build3\libdatachannel\deps\libjuice\juice.vcxproj">
+      <Project>{1986E5B6-E9D3-3AF1-9F54-6F6140F8C214}</Project>
+      <Name>juice</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\build3\libdatachannel\deps\libsrtp\srtp2.vcxproj">
+      <Project>{FCBF01E2-FFF4-319E-B0BF-9E65A18CA8C7}</Project>
+      <Name>srtp2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\build3\libdatachannel\deps\usrsctp\usrsctplib\usrsctp.vcxproj">
+      <Project>{D710F7FF-A6A2-3A78-88F7-F4E32613A085}</Project>
+      <Name>usrsctp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\connectivity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\negotiated.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\reliability.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\simulcast_sdp_generation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\simulcast_sdp_parsing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\turn_connectivity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\track.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\video_layers_allocation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\capi_connectivity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\capi_track.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\websocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\websocketserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\capi_websocketserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\benchmark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\rtx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\test\test.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\camilo\remoting\main\port\networking\libdatachannel\libdatachannel\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D70C3C70-D12E-3DC2-B269-D2A90754B8A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CC244DE8-4D42-3F7B-86C9-67D37FA84A27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
